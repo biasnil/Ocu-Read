@@ -1,0 +1,325 @@
+79 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.7
+79 INFO: Python: 3.12.10
+92 INFO: Platform: Windows-11-10.0.26200-SP0
+92 INFO: Python environment: C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv
+92 INFO: Removing temporary files and cleaning cache in C:\Users\Ivenlee_KR\AppData\Local\pyinstaller
+3169 WARNING: Failed to collect submodules for 'paddleocr._doc2md.math' because importing 'paddleocr._doc2md.math' raised: ModuleNotFoundError: No module named 'lxml'
+3086 WARNING: Failed to collect submodules for 'paddlex.inference.serving' because importing 'paddlex.inference.serving' raised: paddlex.utils.deps.DependencyError: The serving plugin is not available. Please install it properly.
+INFO: Could not find files for the given pattern(s).
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+25257 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\tools',
+ 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader',
+ 'C:\\Users\\Ivenlee_KR\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\Ivenlee_KR\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\Ivenlee_KR\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\Ivenlee_KR\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv',
+ 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR '
+ 'Reader\\venv\\Lib\\site-packages',
+ 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader']
+25513 INFO: Appending 'binaries' from .spec
+25517 INFO: Appending 'datas' from .spec
+25672 INFO: checking Analysis
+25672 INFO: Building Analysis because Analysis-00.toc is non existent
+25672 INFO: Looking for Python shared library...
+25672 INFO: Using Python shared library: C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\python312.dll
+25672 INFO: Running Analysis Analysis-00.toc
+25672 INFO: Target bytecode optimization level: 0
+25672 INFO: Initializing module dependency graph...
+25673 INFO: Initializing module graph hook caches...
+25684 INFO: Analyzing modules for base_library.zip ...
+26374 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+26705 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27278 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+27788 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28020 INFO: Caching module dependency graph...
+28040 INFO: Analyzing C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\main.py
+28060 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28141 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28262 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28278 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28392 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28472 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+29415 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+30912 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+32360 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+45416 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+45464 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+45689 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+45991 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+46453 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+46501 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+46709 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+46738 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+47084 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+47085 INFO: SetuptoolsInfo: initializing cached setuptools info...
+47722 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+47930 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+48007 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48014 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48028 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48028 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+48034 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48034 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+48103 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48111 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48239 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48240 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48243 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48244 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+48524 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48524 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+48772 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+48772 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+49079 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+49131 INFO: Processing standard module hook 'hook-torch.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+1050 WARNING: Failed to collect submodules for 'torch.utils.tensorboard' because importing 'torch.utils.tensorboard' raised: ModuleNotFoundError: No module named 'tensorboard'
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(name)
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(name)
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(name)
+57285 INFO: hook-torch: this torch build does not depend on MKL...
+62691 INFO: Processing standard module hook 'hook-scipy.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+63124 INFO: Processing standard module hook 'hook-scipy.linalg.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+67840 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+67930 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+71050 INFO: Processing standard module hook 'hook-pandas.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+71866 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+72284 INFO: Processing standard module hook 'hook-scipy.special._ufuncs.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+72381 INFO: Processing standard module hook 'hook-scipy.special._ellip_harm_2.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+73657 INFO: Processing standard module hook 'hook-scipy.spatial._ckdtree.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+73952 INFO: Processing standard module hook 'hook-scipy.spatial.transform.rotation.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+74471 INFO: Processing standard module hook 'hook-scipy.stats._stats.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+74739 INFO: Processing standard module hook 'hook-scipy.sparse.csgraph.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+75252 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+76556 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+77556 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+77633 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+78283 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+78328 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+78761 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+78766 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+85593 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+85986 INFO: Processing standard module hook 'hook-torchvision.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+86044 INFO: Processing standard module hook 'hook-torchvision.io.image.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+86433 INFO: Processing standard module hook 'hook-scipy.io.matlab.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+86700 INFO: Processing standard module hook 'hook-h5py.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+92214 INFO: Processing standard module hook 'hook-jinja2.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+93355 INFO: Processing standard module hook 'hook-rich.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+93728 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+94472 INFO: Processing standard module hook 'hook-chardet.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+96174 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+98662 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+98715 INFO: Processing standard module hook 'hook-anyio.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+106413 INFO: Processing standard module hook 'hook-cv2.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+129 WARNING: Failed to collect submodules for 'cv2.gapi' because importing 'cv2.gapi' raised: AttributeError: module 'cv2' has no attribute 'gapi_wip_gst_GStreamerPipeline'
+110142 INFO: Processing standard module hook 'hook-pydantic.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+111177 INFO: Processing pre-safe-import-module hook 'hook-platformdirs.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+111183 INFO: Processing standard module hook 'hook-platformdirs.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+111232 INFO: Processing standard module hook 'hook-transformers.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+113992 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+115535 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+116776 INFO: Processing standard module hook 'hook-regex.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+132438 INFO: Processing standard module hook 'hook-pypdfium2.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+132455 INFO: Processing standard module hook 'hook-pypdfium2_raw.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+132627 INFO: Processing standard module hook 'hook-ruamel.yaml.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+133452 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+133452 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+133464 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+133480 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+133480 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+138035 INFO: Processing standard module hook 'hook-shapely.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\modelscope\models\nlp\chatglm\text_generation.py:1315: SyntaxWarning: invalid escape sequence '\?'
+  ['\?', '\uff1f'],  # noqa
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\modelscope\models\cv\anydoor\ldm\models\diffusion\ddpm.py:235: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+  tmp = self.betas**2 (tmp * (1 - self.alphas_cumprod))
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\baidubce\utils.py:903: SyntaxWarning: invalid escape sequence '\d'
+  compile_ip=re.compile(b'((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}')
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\email\feedparser.py:37: SyntaxWarning: invalid escape sequence '\Z'
+  NLCRE_eol = re.compile('(\r\n|\r|\n)\Z')
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\email\utils.py:68: SyntaxWarning: invalid escape sequence '\A'
+  '([^\ud800-\udbff]|\A)[\udc00-\udfff]([^\udc00-\udfff]|\Z)').search
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\urllib\parse.py:957: SyntaxWarning: invalid escape sequence '\?'
+  _queryprog = re.compile('^(.*)\?([^?]*)$')
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\http\client.py:29: SyntaxWarning: invalid escape sequence '\_'
+  |\____________________
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\http\cookiejar.py:212: SyntaxWarning: invalid escape sequence '\d'
+  "(\d\d\d\d) (\d\d):(\d\d):(\d\d) GMT$", re.ASCII)
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\http\cookiejar.py:294: SyntaxWarning: invalid escape sequence '\d'
+  (\d{4})              # year
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\future\backports\http\cookiejar.py:429: SyntaxWarning: invalid escape sequence '\s'
+  non_junk, nr_junk_chars = re.subn("^[=\s;]*", "", text)
+144127 INFO: Processing standard module hook 'hook-Crypto.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+144759 INFO: Processing standard module hook 'hook-prettytable.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+144811 INFO: Processing standard module hook 'hook-wcwidth.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+147735 INFO: Processing standard module hook 'hook-langdetect.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+149925 INFO: Processing standard module hook 'hook-PySide6.QtSvg.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+152453 INFO: Analyzing hidden import 'surya.layout'
+152453 INFO: Analyzing hidden import 'surya.models'
+152533 INFO: Analyzing hidden import 'surya.recognition.languages'
+152533 INFO: Analyzing hidden import 'surya.scripts'
+152533 INFO: Analyzing hidden import 'surya.scripts.config'
+152580 INFO: Analyzing hidden import 'surya.scripts.detect_layout'
+152587 INFO: Analyzing hidden import 'surya.scripts.detect_text'
+152591 INFO: Analyzing hidden import 'surya.scripts.finetune_ocr'
+152594 INFO: Analyzing hidden import 'surya.scripts.hf_to_s3'
+152594 INFO: Analyzing hidden import 'surya.scripts.ocr_latex'
+152597 INFO: Analyzing hidden import 'surya.scripts.ocr_text'
+152597 INFO: Analyzing hidden import 'surya.scripts.run_streamlit_app'
+152601 INFO: Analyzing hidden import 'surya.scripts.run_texify_app'
+152601 INFO: Analyzing hidden import 'surya.scripts.streamlit_app'
+152608 INFO: Analyzing hidden import 'surya.scripts.table_recognition'
+152609 INFO: Analyzing hidden import 'surya.scripts.texify_app'
+152614 INFO: Analyzing hidden import 'paddleocr.__main__'
+152637 INFO: Analyzing hidden import 'paddleocr._doc2md.converters.docx'
+152680 INFO: Analyzing hidden import 'paddleocr._doc2md.converters.pptx'
+152690 INFO: Analyzing hidden import 'paddleocr._doc2md.converters.xlsx'
+152694 INFO: Analyzing hidden import 'paddlex.__main__'
+152712 INFO: Analyzing hidden import 'paddlex.engine'
+152715 INFO: Analyzing hidden import 'paddlex.inference.models.doc_vlm.processors.GOT_ocr_2_0'
+152715 INFO: Analyzing hidden import 'paddlex.inference.models.doc_vlm.processors.paddleocr_vl'
+152723 INFO: Analyzing hidden import 'paddlex.modules.base.utils.coco_eval'
+152726 INFO: Analyzing hidden import 'paddlex.modules.base.utils.topk_eval'
+152730 INFO: Analyzing hidden import 'paddlex.ops.setup'
+152730 INFO: Analyzing hidden import 'paddlex.repo_apis.Paddle3D_api'
+152740 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleClas_api'
+152769 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleDetection_api'
+152819 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleNLP_api'
+152819 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleOCR_api'
+152858 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleSeg_api'
+152876 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleTS_api'
+152901 INFO: Analyzing hidden import 'paddlex.repo_apis.PaddleVideo_api'
+152930 INFO: Analyzing hidden import 'doctr.cli'
+152930 INFO: Analyzing hidden import 'doctr.cli.main'
+152937 INFO: Analyzing hidden import 'safetensors.mlx'
+152937 INFO: Analyzing hidden import 'torchvision._C_stable'
+152937 INFO: Analyzing hidden import 'torchvision.datasets.samplers'
+152955 INFO: Analyzing hidden import 'torchvision.image_stable'
+152955 INFO: Analyzing hidden import 'torchvision.io._video_deprecation_warning'
+152958 INFO: Analyzing hidden import 'torchvision.io.video'
+152963 INFO: Analyzing hidden import 'torchvision.models.feature_extraction'
+152976 INFO: Analyzing hidden import 'attrs'
+152980 INFO: Analyzing hidden import 'libfuturize'
+152980 INFO: Analyzing hidden import 'libpasteurize'
+152980 INFO: Analyzing hidden import 'past'
+152983 INFO: Analyzing hidden import 'tzdata'
+152983 INFO: Processing module hooks (post-graph stage)...
+153072 WARNING: Hidden import "ascii__mypyc" not found!
+153072 WARNING: Hidden import "confusion__mypyc" not found!
+153072 WARNING: Hidden import "escape__mypyc" not found!
+153073 WARNING: Hidden import "language__mypyc" not found!
+153073 WARNING: Hidden import "magic__mypyc" not found!
+153073 WARNING: Hidden import "orchestrator__mypyc" not found!
+153073 WARNING: Hidden import "postprocess__mypyc" not found!
+153073 WARNING: Hidden import "statistical__mypyc" not found!
+153073 WARNING: Hidden import "structural__mypyc" not found!
+153073 WARNING: Hidden import "utf1632__mypyc" not found!
+153073 WARNING: Hidden import "utf8__mypyc" not found!
+153073 WARNING: Hidden import "validity__mypyc" not found!
+153255 WARNING: Hidden import "pycparser.lextab" not found!
+153255 WARNING: Hidden import "pycparser.yacctab" not found!
+157032 WARNING: Hidden import "torchvision.image" not found!
+157032 WARNING: Hidden import "torchvision._C" not found!
+157033 INFO: Processing standard module hook 'hook-tzdata.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+157536 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+158768 WARNING: Hidden import "scipy.special._cdflib" not found!
+158888 INFO: Performing binary vs. data reclassification (4265 entries)
+159254 INFO: Looking for ctypes DLLs
+159388 WARNING: Ignoring /usr/lib64/libgomp.so.1 imported from C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\torch\_inductor\codecache.py - only basenames are supported with ctypes imports!
+159693 INFO: Analyzing run-time hooks ...
+159734 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+159738 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+159738 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+159743 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+159743 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+159743 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+159743 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+159743 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+159948 INFO: Creating base_library.zip...
+159965 INFO: Looking for dynamic libraries
+INFO: Could not find files for the given pattern(s).
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\paddle\utils\cpp_extension\extension_utils.py:718: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] Error checking compiler version for cl
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] Traceback (most recent call last):
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\torch\utils\cpp_extension.py", line 607, in get_compiler_abi_compatibility_and_version
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     compiler_info = subprocess.check_output(compiler, stderr=subprocess.STDOUT)
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 466, in check_output
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     with Popen(*popenargs, **kwargs) as process:
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     self._execute_child(args, executable, preexec_fn, close_fds,
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.002000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] FileNotFoundError: [WinError 2] The system cannot find the file specified
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] Error checking compiler version for cl
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] Traceback (most recent call last):
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\modelscope\ops\ailut\pyinterfaces.py", line 9, in <module>
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     from cudaops_ailut import (ailut_cbackward, ailut_cforward, lut_cbackward,
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] ModuleNotFoundError: No module named 'cudaops_ailut'
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] 
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] During handling of the above exception, another exception occurred:
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] 
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] Traceback (most recent call last):
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\torch\utils\cpp_extension.py", line 607, in get_compiler_abi_compatibility_and_version
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     compiler_info = subprocess.check_output(compiler, stderr=subprocess.STDOUT)
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 466, in check_output
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 548, in run
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     with Popen(*popenargs, **kwargs) as process:
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     self._execute_child(args, executable, preexec_fn, close_fds,
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]   File "C:\Users\Ivenlee_KR\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]     hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611]                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+W0920 15:52:59.052000 35796 venv\Lib\site-packages\torch\utils\cpp_extension.py:611] FileNotFoundError: [WinError 2] The system cannot find the file specified
+[2026-09-20 15:52:59,265] [ WARNING] attention.py:22 - xFormers not available
+[2026-09-20 15:52:59,268] [ WARNING] block.py:30 - xFormers not available
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(package)
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(package)
+C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(package)
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+172679 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\shiboken6', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\pandas.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\scipy.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\torch\\lib', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\onnx.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\ml_dtypes.libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\paddle\\base\\..\\libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\torchvision', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\torchvision', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\rapidfuzz.libs']
+172679 INFO: Extra DLL search directories (PATH): ['C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\paddle\\base', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\paddle\\base\\..\\libs', 'C:\\Users\\Ivenlee_KR\\Documents\\Python File\\OCR Reader\\venv\\Lib\\site-packages\\PySide6']
+175930 INFO: Warnings written to C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\build\ocuread\warn-ocuread.txt
+176823 INFO: Graph cross-reference written to C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\build\ocuread\xref-ocuread.html
+177158 INFO: checking PYZ
+177158 INFO: Building PYZ because PYZ-00.toc is non existent
+177158 INFO: Building PYZ (ZlibArchive) C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\build\ocuread\PYZ-00.pyz
+183944 INFO: Building PYZ (ZlibArchive) C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\build\ocuread\PYZ-00.pyz completed successfully.
+184135 INFO: checking PKG
+184135 INFO: Building PKG because PKG-00.toc is non existent
+184135 INFO: Building PKG (CArchive) OcuRead.pkg
+184185 INFO: Building PKG (CArchive) OcuRead.pkg completed successfully.
+184185 INFO: Bootloader C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+184185 INFO: checking EXE
+184193 INFO: Building EXE because EXE-00.toc is non existent
+184193 INFO: Building EXE from EXE-00.toc
+184193 INFO: Copying bootloader EXE to C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\build\ocuread\OcuRead.exe
+184226 INFO: Copying icon to EXE
+184251 INFO: Copying 0 resources to EXE
+184251 INFO: Embedding manifest in EXE
+184275 INFO: Appending PKG archive to EXE
+184324 INFO: Fixing EXE headers
+184647 INFO: Building EXE from EXE-00.toc completed successfully.
+184906 INFO: checking COLLECT
+184906 INFO: Building COLLECT because COLLECT-00.toc is non existent
+184906 INFO: Building COLLECT COLLECT-00.toc
+193377 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+193548 INFO: Build complete! The results are available in: C:\Users\Ivenlee_KR\Documents\Python File\OCR Reader\dist
+[spec] bundling metadata for 101 installed distributions

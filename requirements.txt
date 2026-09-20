@@ -1,0 +1,26 @@
+# OcuRead - use Python 3.10 - 3.12 (PaddlePaddle / PyTorch wheels lag brand-new Python releases; 3.12 is the safe pick)
+
+# --- App ---
+PySide6>=6.6
+PyMuPDF>=1.24
+Pillow>=10.1
+numpy
+
+# --- Normal mode (PaddleOCR) ---
+# 3.3.x has a CPU-inference bug (oneDNN / "ConvertPirAttribute2RuntimeAttribute"); 3.2.2 is the known-good release.
+paddlepaddle==3.2.2
+paddleocr
+
+# --- PyTorch (installed with Surya / docTR; for an NVIDIA GPU install the CUDA build first - see README) ---
+torch
+torchvision              # must match the installed torch version (docTR and Surya need it)
+
+# --- LLM mode (Surya, local) ---
+surya-ocr<0.20        # 0.20+ (v2) replaced the API OcuRead uses
+transformers<5.0      # transformers 5.x breaks Surya (pad_token_id errors)
+
+# --- Normal mode alternative (docTR; 'Auto' falls back to it when PaddleOCR is missing) ---
+python-doctr[torch]
+
+# --- Building the .exe (build.bat installs this automatically if it's missing) ---
+pyinstaller>=6.6
